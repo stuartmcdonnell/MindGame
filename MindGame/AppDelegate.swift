@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  MindGame
 //
-//  Created by Eoin Lavery on 11/04/2015.
-//  Copyright (c) 2015 Eoin Lavery. All rights reserved.
+//  Created by Eoin Lavery, Stuart McDonnell, Andrew McClune on 11/04/2015.
+//  Copyright (c) 2015 Eoin Lavery, Stuart McDonnell, Andrew McClune. All rights reserved.
 //
 
 import UIKit
