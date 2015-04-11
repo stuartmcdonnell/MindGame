@@ -26,6 +26,8 @@ class ViewController: UIViewController {
     var pickedNos = [Int]()
     
     var activeCount = 0
+   
+    //eoin eats willbag
     
     var flower = UIImage(named: "flower.png")
     var fossil = UIImage(named: "fossil.png")
