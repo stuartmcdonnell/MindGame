@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="MindGame" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VHO-OL-2Rf" customClass="Tile" customModule="MindGame" customModuleProvider="target">
+                                <rect key="frame" x="16" y="76" width="120" height="120"/>
+                                <color key="backgroundColor" red="0.0" green="0.79388811522630498" blue="0.92440025252525249" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="1">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="tile1Clicked:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="7mA-uj-CcO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JNs-Bq-ZQU" customClass="Tile" customModule="MindGame" customModuleProvider="target">
+                                <rect key="frame" x="278" y="76" width="120" height="120"/>
+                                <color key="backgroundColor" red="0.0" green="0.79388811522630498" blue="0.92440025252525249" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="3">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="tile3Clicked:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="jRH-RK-ViR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y1j-CD-nqc" customClass="Tile" customModule="MindGame" customModuleProvider="target">
+                                <rect key="frame" x="147" y="76" width="120" height="120"/>
+                                <color key="backgroundColor" red="0.0" green="0.79388811522630498" blue="0.92440025252525249" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="2">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="tile2Clicked:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="ZUU-do-PZo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m1d-bG-Ms1" customClass="Tile" customModule="MindGame" customModuleProvider="target">
+                                <rect key="frame" x="16" y="209" width="120" height="120"/>
+                                <color key="backgroundColor" red="0.0" green="0.79388811522630498" blue="0.92440025252525249" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="4">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="tile4Clicked:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="f5q-zH-4vA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r5s-YE-Gei" customClass="Tile" customModule="MindGame" customModuleProvider="target">
+                                <rect key="frame" x="147" y="209" width="120" height="120"/>
+                                <color key="backgroundColor" red="0.0" green="0.79388811522630498" blue="0.92440025252525249" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="5">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="tile5Clicked:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="uN3-zW-pgy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vEZ-Mt-ZgP" customClass="Tile" customModule="MindGame" customModuleProvider="target">
+                                <rect key="frame" x="278" y="209" width="120" height="120"/>
+                                <color key="backgroundColor" red="0.0" green="0.79388811522630498" blue="0.92440025252525249" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="6">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="tile6Clicked:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="6ML-Rf-CJf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GsK-3N-gFd" customClass="Tile" customModule="MindGame" customModuleProvider="target">
+                                <rect key="frame" x="16" y="339" width="120" height="120"/>
+                                <color key="backgroundColor" red="0.0" green="0.79388811522630498" blue="0.92440025252525249" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="7">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="tile7Clicked:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="AbW-3v-Xl8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tc9-Mg-Htr" customClass="Tile" customModule="MindGame" customModuleProvider="target">
+                                <rect key="frame" x="147" y="339" width="120" height="120"/>
+                                <color key="backgroundColor" red="0.0" green="0.79388811522630498" blue="0.92440025252525249" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="8">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="tile8Clicked:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="LF4-Uq-qbZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1l1-yC-lhL" customClass="Tile" customModule="MindGame" customModuleProvider="target">
+                                <rect key="frame" x="278" y="339" width="120" height="120"/>
+                                <color key="backgroundColor" red="0.0" green="0.79388811522630498" blue="0.92440025252525249" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="9">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="tile9Clicked:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="hNS-65-0Ag"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cul-eZ-0Sa" customClass="Tile" customModule="MindGame" customModuleProvider="target">
+                                <rect key="frame" x="16" y="470" width="120" height="120"/>
+                                <color key="backgroundColor" red="0.0" green="0.79388811522630498" blue="0.92440025252525249" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="10">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="tile10Clicked:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="C7b-br-eN6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ndh-mO-o4H" customClass="Tile" customModule="MindGame" customModuleProvider="target">
+                                <rect key="frame" x="278" y="470" width="120" height="120"/>
+                                <color key="backgroundColor" red="0.0" green="0.79388811522630498" blue="0.92440025252525249" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="12">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="tile12Clicked:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="oO8-09-CVg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WUB-fg-ZLr" customClass="Tile" customModule="MindGame" customModuleProvider="target">
+                                <rect key="frame" x="147" y="470" width="120" height="120"/>
+                                <color key="backgroundColor" red="0.0" green="0.79388811522630498" blue="0.92440025252525249" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="11">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="tile11Clicked:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="C2M-Aw-SrF"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <outlet property="tile1" destination="VHO-OL-2Rf" id="Dmr-6T-BES"/>
+                        <outlet property="tile10" destination="Cul-eZ-0Sa" id="1rL-kS-3a1"/>
+                        <outlet property="tile11" destination="WUB-fg-ZLr" id="0n8-KA-0H8"/>
+                        <outlet property="tile12" destination="Ndh-mO-o4H" id="odY-Cr-Psa"/>
+                        <outlet property="tile2" destination="Y1j-CD-nqc" id="PO2-U8-PLz"/>
+                        <outlet property="tile3" destination="JNs-Bq-ZQU" id="Vwo-CC-nxb"/>
+                        <outlet property="tile4" destination="m1d-bG-Ms1" id="fh7-g8-qMC"/>
+                        <outlet property="tile5" destination="r5s-YE-Gei" id="7tb-mx-qsp"/>
+                        <outlet property="tile6" destination="vEZ-Mt-ZgP" id="jlW-xN-OcU"/>
+                        <outlet property="tile7" destination="GsK-3N-gFd" id="dQL-9q-L9z"/>
+                        <outlet property="tile8" destination="Tc9-Mg-Htr" id="whQ-3h-qv5"/>
+                        <outlet property="tile9" destination="1l1-yC-lhL" id="kpD-CS-CGK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
