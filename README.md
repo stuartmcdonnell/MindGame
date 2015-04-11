@@ -1,0 +1,2 @@
+# MindGame
+N@M
